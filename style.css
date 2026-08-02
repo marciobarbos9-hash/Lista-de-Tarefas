@@ -45,10 +45,7 @@ img{
     width: 30px;
     height: 30px;
 }
-input[type="checkbox"]{
-  
-width: 10px;
-}
+
 
 .concluida {
     text-decoration: line-through;
