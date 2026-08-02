@@ -1,0 +1,133 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+ body{ 
+    min-height: 100vh;
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.Tema-claro{
+   min-height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    .container{
+        background: #f0f0f0;
+        box-shadow: 0px 0px 15px gray;
+    }
+    .entrada input{
+        background: rgb(219, 206, 206);
+    }
+    li{
+       background-color: rgb(219, 206, 206);
+    }
+}
+
+.botao-sol{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+input[type="checkbox"]{
+  
+width: 10px;
+}
+
+.concluida {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+
+
+.container{
+    background: #1f1f1f;
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px black;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.entrada{
+    display: flex;
+    gap: 10px;
+}
+
+
+input{
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+
+#btnAdicionar{
+    background: green;
+    color: white;
+}
+
+
+ul{
+    list-style: none;
+    margin-top: 25px;
+}
+
+
+li{
+    background: #333;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+li:hover{
+    padding-left: 10px;
+}
+
+.remover{
+    background: crimson;
+    color: white;
+}
+
+
+li.concluida{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
